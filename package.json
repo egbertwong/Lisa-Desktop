@@ -1,0 +1,25 @@
+{
+  "name": "lisa-desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --watch main.js --exec electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egbertwong/Lisa-Desktop.git"
+  },
+  "author": "EgbertWong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egbertwong/Lisa-Desktop/issues"
+  },
+  "homepage": "https://github.com/egbertwong/Lisa-Desktop#readme",
+  "devDependencies": {
+    "electron": "^13.1.7",
+    "nodemon": "^2.0.12"
+  }
+}
